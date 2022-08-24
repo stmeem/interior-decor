@@ -32,7 +32,7 @@ return(
                     </div>
                 </div>
                 <div className="col-md-8">
-                    <h2 className="section-title">Welcome we <strong> are Heavenly Home Decor</strong></h2>
+                    <h2 className="section-title">Welcome we <strong> are Heavenly Touch Decor</strong></h2>
                     <p>Our team takes over everything, from an idea and concept development to
                         realization. We believe in traditions and incorporate them within our
                         innovations. All our projects incorporate a unique artistic image and functional
