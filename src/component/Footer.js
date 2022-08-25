@@ -4,11 +4,11 @@ export const Footer = () => {
   return (
     <>
       <div className="height-emulator"></div>
-      <footer cclassName="content-footer">
+      <footer className="content-footer">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <div cclassName="footer-item footer-logo">
+              <div className="footer-item footer-logo">
                 <a href="index.html" className="ajax">
                   <img src="./assets/images/footer-logo.png" alt="" />
                 </a>
@@ -20,6 +20,7 @@ export const Footer = () => {
                 </p>
               </div>
             </div>
+
             <div className="col-md-2">
               <div className="footer-item">
                 <h4 className="text-link">Call</h4>
@@ -69,7 +70,7 @@ export const Footer = () => {
           <div className="row">
             <div className="col-md-6"></div>
             <div className="col-md-6">
-              <div classNames="footer-wrap">
+              <div className="footer-wrap">
                 <span className="copyright">
                   {" "}
                   &#169; Monolit 2016. All rights reserved.

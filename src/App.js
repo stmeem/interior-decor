@@ -16,11 +16,13 @@ import { Social } from "./component/Social";
 function App() {
   return (
     <>
+    <html>
+      <body>
       <Loader />
       <div id="main">
         <Navbar />
         <div className="wrapper">
-          <div className="content-holder" id="sec1">
+          <div className="content-holder">
             <Home />
             <About />
             <Facts />
@@ -36,6 +38,8 @@ function App() {
         </div>
         <Social/>
       </div>
+      </body>
+    </html>
     </>
   );
 }
