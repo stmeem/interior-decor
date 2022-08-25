@@ -25,7 +25,7 @@ export const Works = () => {
           <div className="row">
             <div className="col-md-7">
               <div className="parallax-item left-direction">
-                <div class="paralax-media">
+                <div className="paralax-media">
                   <ul className="creat-list">
                     <li>
                       <a href="#">Houses</a>
@@ -40,7 +40,7 @@ export const Works = () => {
                   <div className="paralax-wrap">
                     <img
                       src="./assets/images/folio/thumbs/14.jpg"
-                      class="respimg"
+                      className="respimg"
                       alt=""
                     />
                   </div>
@@ -56,10 +56,10 @@ export const Works = () => {
                     </h3>
                     <a
                       href="portfolio-single.html"
-                      class="btn anim-button fl-l"
+                      className="btn anim-button fl-l"
                     >
                       <span>View Project</span>
-                      <i class="fa fa-long-arrow-right"></i>
+                      <i className="fa fa-long-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ export const Works = () => {
             <div className="col-md-7">
               <div className="parallax-item right-direction">
                 <div className="paralax-media">
-                  <ul class="creat-list">
+                  <ul className="creat-list">
                     <li>
                       <a href="#">Interior</a>
                     </li>
@@ -103,7 +103,7 @@ export const Works = () => {
                       className="btn anim-button fl-l"
                     >
                       <span>View Project</span>
-                      <i class="fa fa-long-arrow-right"></i>
+                      <i className="fa fa-long-arrow-right"></i>
                     </a>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ export const Works = () => {
                     </h3>
                     <a
                       href="portfolio-single.html"
-                      class="btn anim-button fl-l"
+                      className="btn anim-button fl-l"
                     >
                       <span>View Project</span>
                       <i className="fa fa-long-arrow-right"></i>
@@ -154,7 +154,7 @@ export const Works = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-5"></div>
+            <div className="col-md-5"></div>
           </div>
 
           <div className="custom-link-holder">

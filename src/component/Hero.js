@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Home = () => {
+export const Hero = () => {
   return (
     <div className="content full-height" id="sec1">
       <div className="hero-wrap">

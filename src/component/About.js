@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect }  from "react";
 
 export const About = () => {
   return (
@@ -87,35 +87,37 @@ export const About = () => {
 };
 
 export const Facts = () => {
+
+
   return (
-    <div class="content dark-bg">
+    <div className="content dark-bg">
       <div
-        class="sect-subtitle left-align-dec"
+        className="sect-subtitle left-align-dec"
         data-top-bottom="transform: translateY(-200px);"
         data-bottom-top="transform: translateY(200px);"
       >
         <span>02</span>
       </div>
 
-      <div class="parallax-inner">
+      <div className="parallax-inner">
         <div
-          class="bg"
+          className="bg"
           data-bg="./assets/images/bg/1.jpg"
           data-top-bottom="transform: translateY(300px);"
           data-bottom-top="transform: translateY(-300px);"
         ></div>
-        <div class="overlay"></div>
+        <div className="overlay"></div>
       </div>
 
       <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h2 class="section-title">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+              <h2 className="section-title">
                 Some Interesting <strong> Facts</strong>
               </h2>
             </div>
-            <div class="col-md-8">
+            <div className="col-md-8">
               <p>
                 Our team takes over everything, from an idea and concept
                 development to realization. We believe in traditions and
@@ -126,34 +128,34 @@ export const Facts = () => {
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-8">
-              <div class="inline-facts-holder row">
-                <div class="inline-facts col-md-4 ">
-                  <div class="milestone-counter">
-                    <div class="stats animaper">
-                      <div class="num" data-content="461" data-num="461">
-                        0
-                      </div>
-                    </div>
-                  </div>
-                  <h6>Finished projects</h6>
-                </div>
-                <div class="inline-facts col-md-4">
-                  <div class="milestone-counter">
-                    <div class="stats animaper">
-                      <div class="num" data-content="168" data-num="168">
+          <div className="row">
+            <div className="col-md-4"></div>
+            <div className="col-md-8">
+              <div className="inline-facts-holder row">
+                <div className="inline-facts col-md-4 ">
+                  <div className="milestone-counter">
+                    <div className="stats animaper">
+                      <div className="num" data-content="461" data-num="461">
                         0
                       </div>
                     </div>
                   </div>
                   <h6>Happy customers</h6>
                 </div>
-                <div class="inline-facts col-md-4">
-                  <div class="milestone-counter">
-                    <div class="stats animaper">
-                      <div class="num" data-content="222" data-num="222">
+                <div className="inline-facts col-md-4">
+                  <div className="milestone-counter">
+                    <div className="stats animaper">
+                      <div className="num" data-content="168" data-num="168">
+                        0
+                      </div>
+                    </div>
+                  </div>
+                  <h6>Happy customers</h6>
+                </div>
+                <div className="inline-facts col-md-4">
+                  <div className="milestone-counter">
+                    <div className="stats animaper">
+                      <div className="num" data-content="222" data-num="222">
                         0
                       </div>
                     </div>
